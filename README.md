@@ -1,4 +1,5 @@
-# Traffic Volume Analysis and Prediction: Structure and Predictability in Seattle
+# Traffic Volume Analysis and Prediction: 
+Structure and Predictability in Seattle
 
 Analysis of 26 years of traffic patterns in Seattle to understand temporal structure, evaluate predictability, and examine how problem definition influences model performance using approximately 67,000 observations.
 
