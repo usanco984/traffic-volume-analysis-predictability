@@ -79,26 +79,29 @@ This trend suggests structural changes in urban mobility, potentially influenced
 
 ---
 
-### 4. Prediction vs Actual (Total Traffic)
+### 4. Prediction Result: Total Traffic
 
 ![Prediction vs Actual](images/prediction_total.png)
 
-The model captures the general trend but fails to reproduce short-term fluctuations.
+The model captures the overall long-term trend but fails to reproduce short-term fluctuations.
 
-Predictions appear overly smooth compared to actual values, indicating limited sensitivity to variability.
+Predicted values appear overly smooth compared to actual traffic, indicating limited sensitivity to variability.
 
-This explains the low model performance (R² ≈ 0.2).
+This highlights that temporal features alone are insufficient to explain traffic volume changes.
 
 ---
 
-### 5. Model Limitation Visualization
+### 5. Prediction Accuracy: Total Traffic
 
-The comparison between actual and predicted values highlights that:
+![Scatter Plot](images/scatter_prediction.png)
 
-- Models can capture overall trends  
-- Models struggle to capture volatility  
+The scatter plot compares actual and predicted traffic values using the Random Forest model.
+The diagonal line represents perfect predictions where actual and predicted values are equal.
 
-This reinforces the finding that temporal features alone are insufficient to explain traffic variation.
+Many data points are widely dispersed from this line, indicating limited prediction accuracy.
+In particular, the model tends to underestimate higher traffic values, as many points fall below the perfect prediction line.
+
+This suggests that the model may not fully capture the underlying patterns in the data, possibly due to limitations in available features or data characteristics.
 
 ---
 
