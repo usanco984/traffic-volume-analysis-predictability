@@ -93,7 +93,7 @@ This highlights that temporal features alone are insufficient to explain traffic
 
 ### 5. Prediction Accuracy: Total Traffic
 
-![Scatter Plot](images/scatter _prediction.png)
+![Scatter Plot](images/scatter_prediction.png)
 
 The scatter plot compares actual and predicted traffic values using the Random Forest model.
 The diagonal line represents perfect predictions where actual and predicted values are equal.
