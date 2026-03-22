@@ -105,6 +105,25 @@ This suggests that the model may not fully capture the underlying patterns in th
 
 ---
 
+## Data Source
+
+The dataset used in this project was obtained from ![Seattle Open Data](https://data.seattle.gov/).
+
+Dataset: Traffic Counts by Study – Traffic_Count_Studies_by_Hour_Bins_20260205  
+Target City: Seattle, Washington  
+Time Period: 2000 – 2026  
+Dataset Size: Approximately 67,000 rows and over 40 columns  
+
+## Key Variables
+
+- StudyID: Observation location (road segment or intersection)  
+- HR01–HR24: Hourly traffic volume (24-hour bins)  
+- TotalTraffic: Total traffic volume aggregated from hourly counts  
+
+These variables were used to capture both temporal patterns and overall traffic trends for modeling.
+
+---
+
 ## Modeling Workflow
 
 The following workflow was used to build and evaluate prediction models across all experiments.
